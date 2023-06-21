@@ -1,0 +1,32 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{tabular}{lcc} \hline
+ & (1) & (2) \\
+VARIABLES & Model 1: Without time interaction & Model 2: With time interaction \\ \hline
+ &  &  \\
+lsplag & 0.621** & 0.370** \\
+ & (0.201) & (0.141) \\
+day &  & -0.012 \\
+ &  & (0.030) \\
+idr & -1.209 & -6.895*** \\
+ & (0.782) & (2.092) \\
+c.idr\#c.day &  & 0.318*** \\
+ &  & (0.096) \\
+pct\_2029\_2014 & 0.080 & 0.086 \\
+ & (0.044) & (0.049) \\
+lnpop & 0.874*** & 0.924*** \\
+ & (0.169) & (0.183) \\
+lsqrt\_deaths & 0.241*** & -0.021 \\
+ & (0.049) & (0.066) \\
+Constant & -13.964*** & -14.018*** \\
+ & (1.837) & (2.018) \\
+ &  &  \\
+Observations & 5,921 & 5,921 \\
+AIC & 1288 & 1245 \\
+BIC & 1328 & 1298 \\
+ McFadden's R2 & 0.0732 & 0.108 \\ \hline
+\multicolumn{3}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{3}{c}{ *** p$<$0.001, ** p$<$0.01, * p$<$0.05} \\
+\end{tabular}
+\end{document}

@@ -1,0 +1,32 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{tabular}{lcc} \hline
+ & (1) & (2) \\
+VARIABLES & Model 1: Nightlights without time interaction & Model 2: Nightlights with time interaction \\ \hline
+ &  &  \\
+lsplag & 0.679** & 0.349* \\
+ & (0.214) & (0.163) \\
+day &  & 0.089*** \\
+ &  & (0.015) \\
+ecint & -0.101 & -0.470** \\
+ & (0.059) & (0.165) \\
+c.ecint\#c.day &  & 0.022** \\
+ &  & (0.008) \\
+pct\_2029\_2014 & 0.078 & 0.085 \\
+ & (0.044) & (0.050) \\
+lnpop & 0.843*** & 0.890*** \\
+ & (0.156) & (0.168) \\
+lsqrt\_deaths & 0.225*** & -0.020 \\
+ & (0.049) & (0.066) \\
+Constant & -13.996*** & -15.836*** \\
+ & (1.822) & (2.006) \\
+ &  &  \\
+Observations & 5,894 & 5,894 \\
+AIC & 1282 & 1245 \\
+BIC & 1322 & 1299 \\
+ McFadden's R2 & 0.0721 & 0.102 \\ \hline
+\multicolumn{3}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{3}{c}{ *** p$<$0.001, ** p$<$0.01, * p$<$0.05} \\
+\end{tabular}
+\end{document}
